@@ -1,0 +1,5 @@
+openai-whisper
+tqdm
+colorama
+pydub
+ffmpeg-python
