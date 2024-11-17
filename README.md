@@ -21,18 +21,9 @@ A full list of supported languages can be found [here](https://github.com/openai
 - FFmpeg must be installed and configured in your system's PATH.
 
 ### Steps to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/mp3-to-text-transcription.git
-   cd mp3-to-text-transcription
-2. Install required Python packages
-   ```bash
-   pip install -r requirements.txt
-3. Place your mp3 file in the project folder ans put his name in the main.py at line
+1. Place your mp3 file in the project folder ans put his name in the main.py at line
 4. Modify the language parameter in main.py to your preferred language code (defaut is French (`fr`)) at line
-5. Run the script :
-   ```bash
-   python main.py
+5. Run the script with `run.bat` or `run.sh`
 
 ## Notes
 - Mae sure FFmpeg in installed. If not, install it from [FFmpeg official website](https://ffmpeg.org/) or use a package manager like choco or brew.
